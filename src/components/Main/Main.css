@@ -1,0 +1,29 @@
+.main {
+    color: #fff;
+    background-color: #282d35;
+    background-image: url('./assets/main-bg.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 30%;
+    padding: 40px;
+    flex-grow: 1;
+}
+
+.main--title {
+    margin: 0;
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.main--list {
+    font-size: 16px;
+}
+
+.main--list > li {
+    padding: 10px;
+}
+
+.main--list > li::marker {
+    font-size: 1.5rem;
+    color: #51DAFB;
+}

@@ -1,0 +1,36 @@
+.nav {
+    background: #21222a;
+    color: #deebf8;
+    height: 91px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 25px;
+}
+
+@media screen and (max-width: 450px) {
+  .nav {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+.nav--title {
+    font-size: 16px;
+}
+
+.nav--icon {
+    display: flex;
+}
+
+.nav--icon img {
+    width: 30px;
+}
+.nav--icon span {
+    margin-left: 10px;
+    line-height: 30px;
+    font-size: 23px;
+    color: #61dafb;
+    font-weight: 700;
+}
